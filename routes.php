@@ -32,15 +32,4 @@ return $router;
 //return [
 //    // testing
 //    '/test' => [\App\Controllers\TestController::class, 'test'],
-//
-//    // sony web hook
-//    '/provisioning' => [
-//        'method' => 'post',
-//        'dispatch' => [\App\Controllers\SonyController::class, 'deviceActivationEvent']
-//    ],
-//
-//    '/devices' => [
-//        'method' => 'post',
-//        'dispatch' => [\App\Controllers\SonyController::class, 'apiForward'],
-//    ],
 //];
