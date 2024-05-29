@@ -2,7 +2,6 @@
 
 namespace App\Controllers;
 
-use App\Tools\ParentID;
 use Illuminate\Database\Capsule\Manager as DB;
 
 
