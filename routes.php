@@ -9,6 +9,10 @@ use App\Helpers\Router\Router;
 
 $router = new Router();
 
+$router->addRoute('GET', '/', function () {
+    return 'hello world';
+});
+
 $router->addRoute('GET','/test', [\App\Controllers\TestController::class, 'test']);
 
 $router->addRoute('GET', '/user/:id', function($id, $request) {
