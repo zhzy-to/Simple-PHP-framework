@@ -68,6 +68,7 @@ function run()
 
     if ($response instanceof \Symfony\Component\HttpFoundation\Response) {
         $response->send();
+        exit();
     }
 
     echo $response;
